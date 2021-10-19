@@ -11,7 +11,17 @@ button {
     height: 80px;
     width: 80px;
     padding-left: 20px;
+
+}
+
+.aboutMe{
     
+    padding-top:3%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-left:15%;
+    padding-right:25%;
 }
 
 .container {
@@ -20,6 +30,7 @@ button {
 }
 .navbar {
     display: flex;
+    flex-direction: row;
     background-color: #1F2937;
     height: 500px;
 }
