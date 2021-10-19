@@ -15,15 +15,19 @@ button {
 }
 
 .aboutMe{
-    
+    background-color: #1F2937;
     padding-top:3%;
     text-align: left;
-    margin: auto;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    padding-bottom: 3%;
+    
    
     
+}
+.landingText{
+    display:flex;
 }
 
 
@@ -38,18 +42,21 @@ button {
     background-color: #1F2937;
     
 }
+
 .links{
-    margin-left: auto;
+    margin-left: 70%;
     padding:30px;
 }
 .iframeContainer{
-    padding: 5%;
+
+    padding-bottom: 5%;
     text-align: center;
     width:100%;
+    background-color:#1F2937 ;
 }
 
 .footer{
-    background-color: #2596be;
+    background-color: #e0dad1;
     display:flex;
     flex-direction: row;
     height: auto;
@@ -85,8 +92,14 @@ p {
 }
 
 .landingText {
+   display:flex;
+   flex-direction: column;
+   background-color: #1F2937;
    margin:auto;
    text-align: left;
+   width: 100%;
+   padding-left: 20%;
+   padding-bottom: 2%;
    
 }
 .javaRender{
@@ -101,6 +114,11 @@ p {
 .javaLink{
     color: #1F2937;
     align-self: center;
+}
+
+.links{
+    display: flex;
+    flex-grow: 2;
 }
 
 .socialLinks{
