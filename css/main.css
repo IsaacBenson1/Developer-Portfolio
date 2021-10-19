@@ -1,5 +1,5 @@
 body {
-    background-color: #e0dad1;
+    background-color: #1F2937;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -14,6 +14,10 @@ button {
 
 }
 
+*{
+    border: 2px solid red;
+}
+
 .aboutMe{
     background-color: #1F2937;
     padding-top:3%;
@@ -26,9 +30,7 @@ button {
    
     
 }
-.landingText{
-    display:flex;
-}
+
 
 
 
@@ -97,10 +99,10 @@ p {
    display:flex;
    flex-direction: column;
    background-color: #1F2937;
-   margin:auto;
+   margin-left:auto;
+   margin-right:auto;
    text-align: left;
-   width: 100%;
-   padding-left: 20%;
+   
    padding-bottom: 2%;
    
 }
